@@ -4,24 +4,18 @@ A simple and efficient to-do list application built with Flutter, featuring task
 
 ## Features
 
-- ✅ **Task Management**
+-  **Task Management**
   - Add new tasks with custom titles
   - Mark tasks as complete/incomplete
   - Delete tasks with confirmation dialog
   - Clean and intuitive interface
 
-- 📊 **Statistics Dashboard**
+-  **Statistics Dashboard**
   - Total tasks counter
   - Completed tasks tracker
   - Remaining tasks display
   - Efficiency percentage calculation
   - Visual efficiency indicators with images
-
-- 🎨 **Modern UI**
-  - Material Design 3
-  - Tab-based navigation (List & Stats)
-  - Smooth animations and transitions
-  - Responsive layout
 
 ## Screenshots
 
@@ -30,8 +24,6 @@ The app displays different efficiency images based on your productivity:
 - 25-74%: Medium efficiency
 - 75-89%: High efficiency
 - 90-100%: Excellent efficiency
-
-## Installation
 
 ### Prerequisites
 
@@ -44,7 +36,7 @@ The app displays different efficiency images based on your productivity:
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
+git clone <repository-url>
 cd flutter-todo-app
 ```
 
@@ -107,12 +99,6 @@ lib/
     ├── TabToDoList     # Main stateful widget with tab controller
     └── TodoItem        # Reusable task item widget
 ```
-
-## Technologies Used
-
-- **Flutter**: UI framework
-- **Material Design 3**: Design system
-- **Dart**: Programming language
 
 ## Code Highlights
 
