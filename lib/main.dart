@@ -91,7 +91,7 @@ class _TabToDoListState extends State<TabToDoList>
           actions: [
             TextButton(
               onPressed: () => Navigator.of(context).pop(), // Close the window
-              child: const Text('Abolition'),
+              child: const Text('Cancel'),
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
@@ -102,7 +102,7 @@ class _TabToDoListState extends State<TabToDoList>
                 Navigator.of(context).pop();
               },
               child: const Text(
-                'Видалити',
+                'Delete',
                 style: TextStyle(color: Colors.white),
               ),
             ),
@@ -141,7 +141,7 @@ class _TabToDoListState extends State<TabToDoList>
                 _textFieldController.clear();
                 Navigator.of(context).pop();
               },
-              child: const Text('Abolition'),
+              child: const Text('Cancel'),
             ),
             ElevatedButton(
               onPressed: () {
@@ -169,7 +169,7 @@ class _TabToDoListState extends State<TabToDoList>
         bottom: TabBar(
           controller: _tabController,
           tabs: const [
-            Tab(icon: Icon(Icons.list), text: "Lista"),
+            Tab(icon: Icon(Icons.list), text: "List"),
             Tab(icon: Icon(Icons.settings), text: "Stats"),
           ],
         ),
