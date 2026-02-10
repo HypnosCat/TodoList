@@ -136,39 +136,11 @@ String get efficiencyImage {
   else return 'assets/efficiency100.jpg';
 }
 ```
-
-## Localization Notes
-
-The app currently contains mixed language strings (Italian, English, Ukrainian):
-- "Abolition" (Cancel button) - Consider standardizing
-- "Видалити" (Delete in Ukrainian)
-- "Lista" (List in Italian)
-
-For production use, consider implementing proper localization using Flutter's internationalization features.
-
 ## Future Improvements
 
 - [ ] Add data persistence (SharedPreferences or SQLite)
 - [ ] Implement task categories
-- [ ] Add due dates and reminders
 - [ ] Enable task editing
-- [ ] Add task priority levels
 - [ ] Implement search and filter functionality
 - [ ] Add dark mode support
 - [ ] Standardize language/localization
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-For questions or feedback, please open an issue on GitHub.
-
----
-
-Made with ❤️ using Flutter
